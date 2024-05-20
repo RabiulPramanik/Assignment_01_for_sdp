@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice_01</title>
+    <!-- icon awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- band icon cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css" integrity="sha512-DJLNx+VLY4aEiEQFjiawXaiceujj5GA7lIY8CHCIGQCBPfsEG0nGz1edb4Jvw1LR7q031zS5PpPqFuPA8ihlRA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style part -->
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        /* nav part */
+        .header_part{
+            background-color: rgb(42, 41, 41);
+            width: 100%;
+            height: auto;
+
+        }
+        .nav_part{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            padding:10px;
+            padding-left: 50px;
+            padding-right: 50px;
+            align-items: center;
+        }
+        .logo_img{
+            width: 80px;
+            height: 80px;
+        }
+        .logo_img_div{
+            width: 50%;
+        }
+        .nav_list_div{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: rgb(255, 153, 0);
+        }
+        li{
+            list-style: none;
+            font-size: 25px;
+            font-weight: 20px;
+        }
+        /* banar part */
+        .nav_banar{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .left_banar{
+            width: 50%;
+            text-align: center;
+            padding: 150px;
+        }
+        .right_banar{
+            width: 50%;
+            text-align: right;
+        }
+        .banar_img{
+            width: auto;
+            height: 500px;
+        }
+        /* main part */
+        main{
+            width: 100%;
+            margin: 20px;
+        }
+        .patnar{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(255, 255, 255);
+        }
+        .ourservices{
+            padding: 10px;
+            text-align: center;
+            
+        }
+        .card_pard{
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            padding: 20px;
+        }
+        .card{
+            width: 30%;
+            border: 2px solid gray;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .main_banar{
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .main_banar_img{
+            width: 60%;
+        }
+        .main_banar_text{
+            width: 40%;
+            padding-top: 100px;
+        }
+        /* footer */
+        .footer_part{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            color: white;
+        }
+        .left_footer{
+            width: 25%;
+            text-align: center;
+        }
+        .right_footer{
+            width: 75%;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        .footer_nav{
+            display: flex;
+            padding-left: 50px;
+        }
+        .footer_logo{
+            width: 50px;
+            height: 50px;
+        }
+        .right_footer_text{
+            text-align: center;
+        }
+        b{
+            color: rgb(255, 153, 0);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- header part -->
+    <header class="header_part">
+        <!-- nav part -->
+        <nav class="nav_part">
+            <div class="logo_img_div">
+                <img class="logo_img" src="logo_img.png" alt="logo">
+            </div>
+            <div class="nav_list_div">
+                <li>Home</li>
+                <li>Servise</li>
+                <li>ContactUs</li>
+                <li>Login</li>
+            </div>
+        </nav>
+        <!-- banar part -->
+        <div class="nav_banar">
+            <div class="left_banar">
+                <h6 style="color: rgb(255, 153, 0); font-size: 20px;">We Provide The best security Service</h6>
+                <h2 style="color: white; font-size: 30px;">Safety & surity At </h2>
+                <h2 style="color: white; font-size: 30px;"> Your Fingertips</h2>
+                <p><button style="background-color: rgb(255, 153, 0); border: none; padding: 5px; border-radius: 10px; font-size: 15px;">React More</button></p>
+            </div>
+            <div class="right_banar">
+                <img class="banar_img" src="robiul_img.png" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- main part -->
+    <main>
+        <!-- patner -->
+        <div class="patnar">
+            <img class="patnar_img" src="p1.png" alt="p1">
+            <img class="patnar_img" src="p2.png" alt="p2">
+            <img class="patnar_img" src="p3.png" alt="p3">
+            <img class="patnar_img" src="p4.png" alt="p4">
+        </div>
+        <!-- ourservices -->
+        <div class="ourservices">
+            <h1>Our Services <br>-------**-------</h1>
+            <p style="font-size: 20px;"><br>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <br>
+            magna aliqua. Quis ipsum suspendisse ultrices.</p>
+        </div>
+        <!-- card -->
+        <div>
+            <div class="card_pard">
+                <div class="card">
+                    <img src="cs.png" alt="">
+                    <h1>Our Services <br>-------**-------</h1>
+                    <p>Consectetur adipiscing elit, sed do eiusmod <br>
+                    tempor incididunt ut labore et dolore magna <br>
+                    aliqua. Quis ipsum suspendisse ultrices.</p>
+                </div>
+                <div class="card">
+                    <img src="hs.png" alt="">
+                    <h1>Our Services <br>-------**-------</h1>
+                    <p>Consectetur adipiscing elit, sed do eiusmod <br>
+                    tempor incididunt ut labore et dolore magna <br>
+                    aliqua. Quis ipsum suspendisse ultrices.</p>
+                </div>
+                <div class="card">
+                    <img src="ts.png" alt="">
+                    <h1>Our Services <br>-------**-------</h1>
+                    <p>Consectetur adipiscing elit, sed do eiusmod <br>
+                    tempor incididunt ut labore et dolore magna <br>
+                    aliqua. Quis ipsum suspendisse ultrices.</p>
+                </div>
+            </div>
+            <div class="card_pard">
+                <div class="card">
+                    <img src="ts.png" alt="">
+                    <h1>Our Services <br>-------**-------</h1>
+                    <p>Consectetur adipiscing elit, sed do eiusmod <br>
+                    tempor incididunt ut labore et dolore magna <br>
+                    aliqua. Quis ipsum suspendisse ultrices.</p>
+                </div>
+                <div class="card">
+                    <img src="cs.png" alt="">
+                    <h1>Our Services <br>-------**-------</h1>
+                    <p>Consectetur adipiscing elit, sed do eiusmod <br>
+                    tempor incididunt ut labore et dolore magna <br>
+                    aliqua. Quis ipsum suspendisse ultrices.</p>
+                </div>
+                <div class="card">
+                    <img src="hs.png" alt="">
+                    <h1>Our Services <br>-------**-------</h1>
+                    <p>Consectetur adipiscing elit, sed do eiusmod <br>
+                    tempor incididunt ut labore et dolore magna <br>
+                    aliqua. Quis ipsum suspendisse ultrices.</p>
+                </div>
+            </div>
+        </div>
+        <!-- main_banar -->
+        <div class="main_banar">
+            <div class="main_banar_img">
+                <img src="sman.png" alt="sman">
+            </div>
+            <div class="main_banar_text">
+                <button style="background-color: rgb(0, 127, 247); border: none; padding: 5px; border-radius: 10px; font-size: 15px;">Hire Us</button>
+                <h2 style="color: rgb(255, 153, 0); font-size: 30px;">We Will Make Your Home & </h2>
+                <h2 style="color: rgb(255, 153, 0); font-size: 30px;"> Business Completely Safe.</h2>
+                <p>Consectetur adipisicing elit, sed do eiusmod tempor inersdet labore et dolore <br>
+                Consectetur adipisicing elit, sed do tempor incididunt uersdet labore et dolore <br>
+                Consectetur adielit, sed do eiusmod tempor incididunt uersdet labore et dolore <br>
+                Consectetur adipisicing elit, sed do eiusmod tempor incidint uersdet labore et dolore 
+                <br>proident, sunt in culpa qui officia
+            </p>
+            <br>
+            <p>
+                Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit <br>
+                Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit <br>
+                proident, sunt in culpa qui officia
+            </p>
+            <p style="padding-top: 20px; font-weight: 30px; color: rgb(255, 0, 0); font-size: 30px;">
+                <i class="fa-solid fa-phone fa-2xl"></i>
+                Get free consultation <br>
+            </p>
+            <p style="font-size: 40px; color: black; padding-top: 10px;">01700968740</p>
+            </div>
+        </div>
+    </main>
+    <!-- footer part -->
+    <footer class="footer_part">
+        <div class="left_footer">
+            <div class="footer_nav">
+                <img class="footer_logo" src="logo_img.png" alt="">
+                <h3 style="color: rgb(255, 153, 0); font-size: 20px; padding-top: 15px;">Security Manager</h3>
+            </div>
+            <div class="footer_text">
+                <p>Consectetur adipiscing elttid do eiuid <br>
+                tempor incididunt ut labereore maeet <br>
+                dolore magna aliqua. Qweeuis ium <br>
+                suspen edisse ultrices. </p>
+                <h4 style="color: rgb(255, 153, 0); font-size: 15px;">Get Jobs Notifications</h4>
+                <p><button style="background-color: rgb(255, 255, 255); border: none; padding: 5px; border-radius: 10px; font-size: 15px; color: black;">Enter Your Email Here....</button></p>
+            </div>
+        </div>
+        <div class="right_footer">
+            <div class="right_footer_text">
+                <h3>Learn More <br>----*----</h3>
+                <p>Our Customer <br>
+                    Take a Tour <br>
+                    Pricing Table <br>
+                    Sort Code <br>
+                    More Features <br>
+                    Training Video</p>
+
+            </div>
+            <div class="right_footer_text">
+                <h3>Learn More <br>----*----</h3>
+                <p>Our Customer <br>
+                    Take a Tour <br>
+                    Pricing Table <br>
+                    Sort Code <br>
+                    More Features <br>
+                    Training Video</p>
+
+            </div>
+            <div class="right_footer_text">
+                <h3>Learn More <br>----*----</h3>
+                <p>Our Customer <br>
+                    Take a Tour <br>
+                    Pricing Table <br>
+                    Sort Code <br>
+                    More Features <br>
+                    Training Video</p>
+
+            </div>
+            <div class="right_footer_text">
+                <h3>Learn More <br>----*----</h3>
+                <p>Our Customer <br>
+                    Take a Tour <br>
+                    Pricing Table <br>
+                    Sort Code <br>
+                    More Features <br>
+                    Training Video</p>
+
+            </div>
+            <div class="right_footer_text">
+                <h3>Learn More <br>----*----</h3>
+                <p><b>Office</b>   512/B Lloyd Ladner Rd,  <br>
+                    <b>Address :</b>   Christian, MS, 39571 <br><br>
+                <b>Office</b>   512/B Lloyd Ladner Rd,  <br>
+                    <b>Address :</b>   Christian, MS, 39571 <br><br>
+                <b>Office</b>   512/B Lloyd Ladner Rd,  <br>
+                    <b>Address :</b>   Christian, MS, 39571 <br>
+                </p>
+
+            </div>
+
+        </div>
+        
+
+    </footer>
+</body>
+</html>
